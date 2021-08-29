@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6314509A26B192E800162F55 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314509826B192E400162F55 /* PDFKit.framework */; };
+		632B18D426B6D6EE00D1B35E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632B18D226B6D6EE00D1B35E /* MainMenu.xib */; };
+		63745C1426B96D7100E679CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CA899726AD832B00822915 /* Info.plist */; };
+		63745C1626B9735D00E679CD /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314509826B192E400162F55 /* PDFKit.framework */; };
+		6396B68D26B677AD0038B30C /* QD6A.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6396B68F26B677AD0038B30C /* QD6A.JPG */; };
 		63CA899126AD832A00822915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA899026AD832A00822915 /* AppDelegate.m */; };
 		63CA899326AD832B00822915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CA899226AD832B00822915 /* Assets.xcassets */; };
-		63CA899626AD832B00822915 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CA899426AD832B00822915 /* MainMenu.xib */; };
 		63CA899926AD832B00822915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA899826AD832B00822915 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6314509826B192E400162F55 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		632B18D326B6D6EE00D1B35E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6396B68E26B677AD0038B30C /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/QD6A.JPG; sourceTree = "<group>"; };
+		6396B69126B678110038B30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hans"; path = "zh-Hans.lproj/QD6A.JPG"; sourceTree = "<group>"; };
 		63CA898C26AD832A00822915 /* Useless PDF Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Useless PDF Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CA898F26AD832A00822915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63CA899026AD832A00822915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63CA899226AD832B00822915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63CA899526AD832B00822915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		63CA899726AD832B00822915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CA899826AD832B00822915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63CA899A26AD832B00822915 /* Useless_PDF_Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Useless_PDF_Viewer.entitlements; sourceTree = "<group>"; };
@@ -31,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6314509A26B192E800162F55 /* PDFKit.framework in Frameworks */,
+				63745C1626B9735D00E679CD /* PDFKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +73,11 @@
 				63CA898F26AD832A00822915 /* AppDelegate.h */,
 				63CA899026AD832A00822915 /* AppDelegate.m */,
 				63CA899226AD832B00822915 /* Assets.xcassets */,
-				63CA899426AD832B00822915 /* MainMenu.xib */,
 				63CA899726AD832B00822915 /* Info.plist */,
+				632B18D226B6D6EE00D1B35E /* MainMenu.xib */,
 				63CA899826AD832B00822915 /* main.m */,
 				63CA899A26AD832B00822915 /* Useless_PDF_Viewer.entitlements */,
+				6396B68F26B677AD0038B30C /* QD6A.JPG */,
 			);
 			path = "Useless PDF Viewer";
 			sourceTree = "<group>";
@@ -116,7 +121,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
 			);
 			mainGroup = 63CA898326AD832A00822915;
 			productRefGroup = 63CA898D26AD832A00822915 /* Products */;
@@ -133,8 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63745C1426B96D7100E679CD /* Info.plist in Resources */,
 				63CA899326AD832B00822915 /* Assets.xcassets in Resources */,
-				63CA899626AD832B00822915 /* MainMenu.xib in Resources */,
+				6396B68D26B677AD0038B30C /* QD6A.JPG in Resources */,
+				632B18D426B6D6EE00D1B35E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,12 +160,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63CA899426AD832B00822915 /* MainMenu.xib */ = {
+		632B18D226B6D6EE00D1B35E /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63CA899526AD832B00822915 /* Base */,
+				632B18D326B6D6EE00D1B35E /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6396B68F26B677AD0038B30C /* QD6A.JPG */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6396B68E26B677AD0038B30C /* en */,
+				6396B69126B678110038B30C /* zh-Hans */,
+			);
+			name = QD6A.JPG;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -168,6 +184,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -284,11 +302,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 4Y4T5YP7F2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Useless PDF Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.c191239.Useless-PDF-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -304,11 +324,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 4Y4T5YP7F2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Useless PDF Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.c191239.Useless-PDF-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
